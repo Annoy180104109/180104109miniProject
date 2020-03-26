@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="#00E5FF"
+    android:layout_height="match_parent"
+    tools:context="signUp">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/Acc"
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="30dp"
+        android:text="MY ACCOUNT"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_below="@id/Acc"
+        android:id="@+id/name"
+        android:paddingLeft="70dp"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="@+id/Acc"
+        />
+
+    <EditText
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="NAME"
+        android:textColor="@color/colorLogin"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/Acc"
+        android:id="@+id/EditName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHighlight="@android:color/holo_blue_light"
+        android:inputType="textPersonName"
+         />
+
+    <TextView
+        android:layout_below="@id/EditName"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:textSize="20dp"
+         />
+
+    <EditText
+        android:textColor="@color/colorOrange"
+        android:textStyle="bold"
+        android:id="@+id/EditPIN"
+        android:layout_below="@id/EditName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PINNO"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:layout_below="@id/EditPIN"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/EditPIN"
+        android:id="@+id/register"
+        android:textSize="30dp"
+        android:textColor="@color/colorLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Register" />
+
+        <ImageView
+            android:layout_below="@id/register"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/loginman" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

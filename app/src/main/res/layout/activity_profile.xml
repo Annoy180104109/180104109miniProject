@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+        <TableRow
+            android:id="@+id/table1"
+            android:layout_marginTop="20dp"
+
+            >
+
+                <TextView
+                    android:layout_span="4"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="40dp"
+                    android:text="Profile"
+                    android:textStyle="bold"
+                    />
+               />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:id="@+id/table2"
+            android:background="#78c785">
+
+
+                >
+
+                <TextView
+
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+                    android:text="PIN"
+
+                    />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+                    android:text="Name"
+
+                    />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+                    android:text="ACCNO"
+
+                    />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+                    android:text="CurrentBalance"
+
+                    />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table3"
+            android:background="#76FF03"
+            android:layout_marginTop="20dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/pinColumn"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+
+
+                    />
+                <TextView
+                    android:id="@+id/nameColumn"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+
+
+                    />
+                <TextView
+                    android:id="@+id/accColumn"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+
+
+                    />
+                <TextView
+                    android:id="@+id/balanceColumn"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18sp"
+                    android:layout_height="20dp"
+
+
+                    />
+
+
+        </TableRow>
+
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="100dp"
+    android:layout_height="match_parent"
+    >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="190dp"
+             />
+
+
+
+        <EditText
+            android:paddingLeft="60dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/Amount"
+            android:hint="@string/Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+             />
+
+        <Button
+            android:id="@+id/withDrawButton"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="withdraw" />
+
+        <Button
+            android:id="@+id/depositButton"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="deposit" />
+
+
+</FrameLayout>
+
+
+
+
+
+
+</TableLayout>
+
+
+
+
